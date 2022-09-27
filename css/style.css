@@ -1,0 +1,37 @@
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(151, 151, 165);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    margin-top: 30px auto;
+    background-color: #fff;
+    width: 80%;
+}
+
+/* header */
+
+#name-website {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+#logo {
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#name-logo {
+    display: inline-block;
+    font-size: 40px;
+}
+
+/* structure main */
