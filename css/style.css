@@ -7,14 +7,15 @@
 
 body {
     background-color: rgb(151, 151, 165);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
-#container {
-    margin-top: 30px auto;
+.container {
+    margin: 1px auto;
+    padding: 0 50px;
     background-color: #fff;
     width: 80%;
+    border-radius: 7px;
 }
 
 /* header */
@@ -22,6 +23,7 @@ body {
 #name-website {
     background-color: #fff;
     padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -35,3 +37,73 @@ body {
 }
 
 /* structure main */
+
+.customization-section {
+    padding: 10px 10px;
+}
+
+#add-task {
+    color: #fff;
+    background-color: rgb(109, 171, 241);
+    border: 0;
+    border-radius: 7px;
+    height: 40px;
+    width: auto;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+
+#add-section {
+    color: lightgray;
+    background-color: #fff;
+    border-color: lightgray;
+    border-radius: 7px;
+    height: 40px;
+    width: auto;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+
+/* structure list element */
+
+.list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.item-list {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.check{
+    color: lightgreen;
+    border: solid;
+    border-radius: 50%;
+}
+
+.cross {
+    color: red;
+    border: solid;
+    border-radius: 50%;
+}
+
+.reference {
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
